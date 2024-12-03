@@ -1,0 +1,74 @@
+.join-container,
+.chat-container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #f4f4f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 2px solid #e0e0e0;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.message:hover {
+  background-color: #f9f9f9;
+}
+
+.message.admin {
+  font-style: italic;
+  color: #666;
+  background-color: #f0f0f0;
+}
+
+.message-form {
+  display: flex;
+  gap: 10px;
+  background-color: #f8f8fc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.message-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.message-form input:focus {
+  border-color: #4a90e2;
+}
+
+.message-form button {
+  padding: 10px 15px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-form button:hover {
+  background-color: #357abd;
+}
