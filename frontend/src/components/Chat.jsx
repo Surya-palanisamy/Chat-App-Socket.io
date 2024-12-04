@@ -9,7 +9,7 @@ const Chat = () => {
   const [room, setRoom] = useState("");
   const [user, setUser] = useState("");
 
-  const backendUrl = "http://localhost:3000";
+  const backendUrl = "https://chat-app-socket-io-sepia.vercel.app/";
 
   useEffect(() => {
     const search = window.location.search;
