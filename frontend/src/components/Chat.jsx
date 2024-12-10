@@ -9,7 +9,7 @@ const Chat = () => {
   const [room, setRoom] = useState("");
   const [user, setUser] = useState("");
 
-  const backendUrl = "https://chat-app-socket-io-sepia.vercel.app/";
+  const backendUrl = "https://server-api-socket.glitch.me/";
 
   useEffect(() => {
     const search = window.location.search;

@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "node api/index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
