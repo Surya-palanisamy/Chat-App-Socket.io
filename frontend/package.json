@@ -20,7 +20,7 @@
     "@types/react": "",
     "@types/react-dom": "",
     "@vitejs/plugin-react": "",
-    "eslint": "^9.15.0",
+    "eslint": "",
     "eslint-plugin-react": "",
     "eslint-plugin-react-hooks": "",
     "eslint-plugin-react-refresh": "",
