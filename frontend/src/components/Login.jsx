@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Join = () => {
+const Login = () => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
   const navigate = useNavigate();
@@ -34,4 +34,4 @@ const Join = () => {
   );
 };
 
-export default Join;
+export default Login;
